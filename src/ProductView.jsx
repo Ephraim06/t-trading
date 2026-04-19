@@ -135,6 +135,7 @@ const ProductView = () => {
     }, 3000);
   };
 
+  // To be updated with real logic
   const handleAddToCart = () => {
     if (!product.inStock) {
       showToast(`${product.name} is currently out of stock`, 'error');
